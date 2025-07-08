@@ -1,0 +1,14 @@
+{
+  "name": "zed-symbols",
+  "version": "0.0.24",
+  "description": "A simple file icon theme for Zed.",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsx src/build.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/node": "^22.14.1",
+    "simple-git": "^3.28.0"
+  }
+}

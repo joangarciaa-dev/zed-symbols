@@ -1,6 +1,6 @@
 id = "symbols"
 name = "Symbols"
-version = "0.2.2"
+version = "0.0.24"
 schema_version = 1
 authors = ["Miguel Solorio <unknown@unknown.dev>"]
 description = "A simple file icon theme"
