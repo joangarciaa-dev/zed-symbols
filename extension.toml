@@ -4,4 +4,4 @@ version = "0.0.24"
 schema_version = 1
 authors = ["Miguel Solorio <unknown@unknown.dev>"]
 description = "A simple file icon theme"
-repository = "https://github.com/miguelsolorio/vscode-symbols"
+repository = "https://github.com/sebastiandotdev/zed-symbols"
