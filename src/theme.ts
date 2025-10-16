@@ -76,6 +76,16 @@ export const getTheme = async (): Promise<IconTheme> => {
       ]),
   );
 
+  const folderIconDefinitions = Object.fromEntries(
+    Object.entries(symbolsIconTheme.iconDefinitions ?? {})
+      .filter(([key]) => key.startsWith("folder"))
+      .map(([key, value]) => [
+        key,
+        {
+          iconPath: value.iconPath,
+        },
+      ]),
+  );
   /**
    * Transform fileNames object to be case-insensitive
    * This is necessary because ZED's API is case-sensitive but the manifest is not
@@ -91,6 +101,38 @@ export const getTheme = async (): Promise<IconTheme> => {
     {} as { [key: string]: string },
   );
 
+  const named_directory_icons: IconTheme["named_directory_icons"] = {};
+
+  // Process folder name mappings from the manifest
+  Object.entries(symbolsIconTheme.folderNames ?? {}).forEach(
+    ([folderName, iconKey]) => {
+      const collapsedIcon = folderIconDefinitions[iconKey];
+      const expandedIconKey =
+        symbolsIconTheme.folderNamesExpanded?.[folderName];
+      const expandedIcon = expandedIconKey
+        ? folderIconDefinitions[expandedIconKey]
+        : collapsedIcon;
+
+      if (collapsedIcon) {
+        const variations = [
+          folderName,
+          `.${folderName}`,
+          `_${folderName}`,
+          `__${folderName}__`,
+        ];
+
+        const iconPaths = {
+          collapsed: collapsedIcon.iconPath,
+          expanded: expandedIcon?.iconPath || collapsedIcon.iconPath,
+        };
+
+        variations.forEach((variation) => {
+          named_directory_icons[variation] = iconPaths;
+        });
+      }
+    },
+  );
+
   return {
     name: "Symbols Icon Theme",
     appearance: "dark",
@@ -99,6 +141,7 @@ export const getTheme = async (): Promise<IconTheme> => {
       collapsed: "./icons/folders/folder.svg",
       expanded: "./icons/folders/folder-open.svg",
     },
+    named_directory_icons,
     file_suffixes: symbolsIconTheme.fileExtensions ?? {},
     file_stems: transformedFileNames,
   };
