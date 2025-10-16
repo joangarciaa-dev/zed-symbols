@@ -5,13 +5,13 @@ import { getTheme, repositoryDir } from "./theme";
 const zedIconTheme = await getTheme();
 
 const zedManifest = {
-  $schema: "https://zed.dev/schema/icon_themes/v0.2.0.json",
+  $schema: "https://zed.dev/schema/icon_themes/v0.3.0.json",
   name: "Symbols Icon Theme",
   author: "Zed Industries",
   themes: [zedIconTheme],
 };
 
-var iconThemesDir = path.join(import.meta.dirname, "../icon_themes");
+const iconThemesDir = path.join(import.meta.dirname, "../icon_themes");
 
 if (!fs.existsSync(iconThemesDir)) {
   fs.mkdirSync(iconThemesDir, { recursive: true });
