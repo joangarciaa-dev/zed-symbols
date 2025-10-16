@@ -4,11 +4,12 @@
   "description": "A simple file icon theme for Zed.",
   "type": "module",
   "scripts": {
-    "build": "npx tsx src/build.ts"
+    "build": "npx tsx src/build.ts",
+    "dev": "npx tsx src/build.ts --watch"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.6",
+    "@biomejs/biome": "2.2.6",
     "@types/node": "^22.14.1",
-    "simple-git": "^3.28.0"
+    "simple-git": "3.28.0"
   }
 }
