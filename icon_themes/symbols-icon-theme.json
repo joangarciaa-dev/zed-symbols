@@ -3731,6 +3731,8 @@
         "DOCKER-COMPOSE.YML": "docker",
         "docker-compose.override.yml": "docker",
         "DOCKER-COMPOSE.OVERRIDE.YML": "docker",
+        "docker-compose.preprod.yml": "docker",
+        "DOCKER-COMPOSE.PREPROD.YML": "docker",
         "docker-compose.prod.yml": "docker",
         "DOCKER-COMPOSE.PROD.YML": "docker",
         "docker-compose.production.yml": "docker",
@@ -3763,6 +3765,8 @@
         "DOCKER-COMPOSE.YAML": "docker",
         "docker-compose.override.yaml": "docker",
         "DOCKER-COMPOSE.OVERRIDE.YAML": "docker",
+        "docker-compose.preprod.yaml": "docker",
+        "DOCKER-COMPOSE.PREPROD.YAML": "docker",
         "docker-compose.prod.yaml": "docker",
         "DOCKER-COMPOSE.PROD.YAML": "docker",
         "docker-compose.production.yaml": "docker",
@@ -3795,6 +3799,8 @@
         "COMPOSE.YML": "docker",
         "compose.override.yml": "docker",
         "COMPOSE.OVERRIDE.YML": "docker",
+        "compose.preprod.yml": "docker",
+        "COMPOSE.PREPROD.YML": "docker",
         "compose.prod.yml": "docker",
         "COMPOSE.PROD.YML": "docker",
         "compose.production.yml": "docker",
@@ -3827,6 +3833,8 @@
         "COMPOSE.YAML": "docker",
         "compose.override.yaml": "docker",
         "COMPOSE.OVERRIDE.YAML": "docker",
+        "compose.preprod.yaml": "docker",
+        "COMPOSE.PREPROD.YAML": "docker",
         "compose.prod.yaml": "docker",
         "COMPOSE.PROD.YAML": "docker",
         "compose.production.yaml": "docker",
@@ -4467,4 +4475,3 @@
     }
   ]
 }
-
