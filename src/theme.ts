@@ -101,7 +101,7 @@ export const getTheme = async (): Promise<IconTheme> => {
     {} as { [key: string]: string },
   );
 
-  const named_directory_icons: IconTheme["named_directory_icons"] = {};
+  const namedDirectoryIcons: IconTheme["named_directory_icons"] = {};
 
   // Process folder name mappings from the manifest
   Object.entries(symbolsIconTheme.folderNames ?? {}).forEach(
@@ -127,7 +127,7 @@ export const getTheme = async (): Promise<IconTheme> => {
         };
 
         variations.forEach((variation) => {
-          named_directory_icons[variation] = iconPaths;
+          namedDirectoryIcons[variation] = iconPaths;
         });
       }
     },
@@ -141,7 +141,7 @@ export const getTheme = async (): Promise<IconTheme> => {
       collapsed: "./icons/folders/folder.svg",
       expanded: "./icons/folders/folder-open.svg",
     },
-    named_directory_icons,
+    named_directory_icons: namedDirectoryIcons,
     file_suffixes: symbolsIconTheme.fileExtensions ?? {},
     file_stems: transformedFileNames,
   };

@@ -145,6 +145,9 @@
         "cursor": {
           "path": "./icons/files/cursor.svg"
         },
+        "claude": {
+          "path": "./icons/files/claude.svg"
+        },
         "cypress": {
           "path": "./icons/files/cypress.svg"
         },
@@ -159,6 +162,24 @@
         },
         "docker": {
           "path": "./icons/files/docker.svg"
+        },
+        "docker-pink": {
+          "path": "./icons/files/docker-pink.svg"
+        },
+        "docker-green": {
+          "path": "./icons/files/docker-green.svg"
+        },
+        "docker-orange": {
+          "path": "./icons/files/docker-orange.svg"
+        },
+        "docker-purple": {
+          "path": "./icons/files/docker-purple.svg"
+        },
+        "docker-red": {
+          "path": "./icons/files/docker-red.svg"
+        },
+        "docker-yellow": {
+          "path": "./icons/files/docker-yellow.svg"
         },
         "document": {
           "path": "./icons/files/document.svg"
@@ -479,19 +500,19 @@
           "path": "./icons/files/react.svg"
         },
         "redux-actions": {
-          "path": "./icons/files/redux-actions.svg "
+          "path": "./icons/files/redux-actions.svg"
         },
         "redux-effects": {
-          "path": "./icons/files/redux-effects.svg "
+          "path": "./icons/files/redux-effects.svg"
         },
         "redux-facade": {
           "path": "./icons/files/redux-facade.svg"
         },
         "redux-reducer": {
-          "path": "./icons/files/redux-reducer.svg "
+          "path": "./icons/files/redux-reducer.svg"
         },
         "redux-selector": {
-          "path": "./icons/files/redux-selector.svg "
+          "path": "./icons/files/redux-selector.svg"
         },
         "rescript-interface": {
           "path": "./icons/files/rescript-interface.svg"
@@ -657,6 +678,9 @@
         },
         "orval": {
           "path": "./icons/files/orval.svg"
+        },
+        "shadcn": {
+          "path": "./icons/files/shadcn.svg"
         }
       },
       "directory_icons": {
@@ -677,6 +701,22 @@
           "expanded": "./icons/folders/folder-i18n.svg"
         },
         "__i18n__": {
+          "collapsed": "./icons/folders/folder-i18n.svg",
+          "expanded": "./icons/folders/folder-i18n.svg"
+        },
+        "locales": {
+          "collapsed": "./icons/folders/folder-i18n.svg",
+          "expanded": "./icons/folders/folder-i18n.svg"
+        },
+        ".locales": {
+          "collapsed": "./icons/folders/folder-i18n.svg",
+          "expanded": "./icons/folders/folder-i18n.svg"
+        },
+        "_locales": {
+          "collapsed": "./icons/folders/folder-i18n.svg",
+          "expanded": "./icons/folders/folder-i18n.svg"
+        },
+        "__locales__": {
           "collapsed": "./icons/folders/folder-i18n.svg",
           "expanded": "./icons/folders/folder-i18n.svg"
         },
@@ -1167,6 +1207,82 @@
         "__.cursor__": {
           "collapsed": "./icons/folders/folder-cursor.svg",
           "expanded": "./icons/folders/folder-cursor.svg"
+        },
+        ".claude-code": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "..claude-code": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "_.claude-code": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "__.claude-code__": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        ".claude": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "..claude": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "_.claude": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "__.claude__": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "claude": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "_claude": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "__claude__": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "claude-config": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        ".claude-config": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "_claude-config": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "__claude-config__": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "claude-prompts": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        ".claude-prompts": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "_claude-prompts": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
+        },
+        "__claude-prompts__": {
+          "collapsed": "./icons/folders/folder-claude.svg",
+          "expanded": "./icons/folders/folder-claude.svg"
         },
         ".vercel": {
           "collapsed": "./icons/folders/folder-vercel.svg",
@@ -2745,6 +2861,7 @@
         "selectors.ts": "redux-selector",
         "pdf": "pdf",
         "env": "gear",
+        "env.example": "gear",
         "pkl": "pkl",
         "hs": "haskell",
         "component.dart": "angular-component",
@@ -3157,8 +3274,18 @@
         "KNIP.JSON": "knip",
         "knip.jsonc": "knip",
         "KNIP.JSONC": "knip",
+        ".knip.json": "knip",
+        ".KNIP.JSON": "knip",
+        ".knip.jsonc": "knip",
+        ".KNIP.JSONC": "knip",
         "knip.ts": "knip",
         "KNIP.TS": "knip",
+        "knip.js": "knip",
+        "KNIP.JS": "knip",
+        "knip.config.ts": "knip",
+        "KNIP.CONFIG.TS": "knip",
+        "knip.config.js": "knip",
+        "KNIP.CONFIG.JS": "knip",
         "css.ts": "vanilla-extract",
         "CSS.TS": "vanilla-extract",
         "dev.vars": "cloudflare-workers",
@@ -3531,6 +3658,24 @@
         ".PRETTIERRC.TOML": "prettier",
         ".cursorrules": "cursor",
         ".CURSORRULES": "cursor",
+        "claude.md": "claude",
+        "CLAUDE.MD": "claude",
+        ".claude": "claude",
+        ".CLAUDE": "claude",
+        ".clauderc": "claude",
+        ".CLAUDERC": "claude",
+        "claude.json": "claude",
+        "CLAUDE.JSON": "claude",
+        "claude.yaml": "claude",
+        "CLAUDE.YAML": "claude",
+        "claude.yml": "claude",
+        "CLAUDE.YML": "claude",
+        ".claude.md": "claude",
+        ".CLAUDE.MD": "claude",
+        "claude-prompt.md": "claude",
+        "CLAUDE-PROMPT.MD": "claude",
+        ".claudeignore": "claude",
+        ".CLAUDEIGNORE": "claude",
         "tauri.conf.json": "tauri",
         "TAURI.CONF.JSON": "tauri",
         "tauri.linux.json": "tauri",
@@ -3727,142 +3872,164 @@
         "DOCKERFILE.WEB": "docker",
         "dockerfile.worker": "docker",
         "DOCKERFILE.WORKER": "docker",
-        "docker-compose.yml": "docker",
-        "DOCKER-COMPOSE.YML": "docker",
-        "docker-compose.override.yml": "docker",
-        "DOCKER-COMPOSE.OVERRIDE.YML": "docker",
-        "docker-compose.preprod.yml": "docker",
-        "DOCKER-COMPOSE.PREPROD.YML": "docker",
-        "docker-compose.prod.yml": "docker",
-        "DOCKER-COMPOSE.PROD.YML": "docker",
-        "docker-compose.production.yml": "docker",
-        "DOCKER-COMPOSE.PRODUCTION.YML": "docker",
-        "docker-compose.alpha.yml": "docker",
-        "DOCKER-COMPOSE.ALPHA.YML": "docker",
-        "docker-compose.beta.yml": "docker",
-        "DOCKER-COMPOSE.BETA.YML": "docker",
-        "docker-compose.stage.yml": "docker",
-        "DOCKER-COMPOSE.STAGE.YML": "docker",
-        "docker-compose.staging.yml": "docker",
-        "DOCKER-COMPOSE.STAGING.YML": "docker",
-        "docker-compose.dev.yml": "docker",
-        "DOCKER-COMPOSE.DEV.YML": "docker",
-        "docker-compose.development.yml": "docker",
-        "DOCKER-COMPOSE.DEVELOPMENT.YML": "docker",
-        "docker-compose.local.yml": "docker",
-        "DOCKER-COMPOSE.LOCAL.YML": "docker",
-        "docker-compose.test.yml": "docker",
-        "DOCKER-COMPOSE.TEST.YML": "docker",
-        "docker-compose.testing.yml": "docker",
-        "DOCKER-COMPOSE.TESTING.YML": "docker",
-        "docker-compose.ci.yml": "docker",
-        "DOCKER-COMPOSE.CI.YML": "docker",
-        "docker-compose.web.yml": "docker",
-        "DOCKER-COMPOSE.WEB.YML": "docker",
-        "docker-compose.worker.yml": "docker",
-        "DOCKER-COMPOSE.WORKER.YML": "docker",
-        "docker-compose.yaml": "docker",
-        "DOCKER-COMPOSE.YAML": "docker",
-        "docker-compose.override.yaml": "docker",
-        "DOCKER-COMPOSE.OVERRIDE.YAML": "docker",
-        "docker-compose.preprod.yaml": "docker",
-        "DOCKER-COMPOSE.PREPROD.YAML": "docker",
-        "docker-compose.prod.yaml": "docker",
-        "DOCKER-COMPOSE.PROD.YAML": "docker",
-        "docker-compose.production.yaml": "docker",
-        "DOCKER-COMPOSE.PRODUCTION.YAML": "docker",
-        "docker-compose.alpha.yaml": "docker",
-        "DOCKER-COMPOSE.ALPHA.YAML": "docker",
-        "docker-compose.beta.yaml": "docker",
-        "DOCKER-COMPOSE.BETA.YAML": "docker",
-        "docker-compose.stage.yaml": "docker",
-        "DOCKER-COMPOSE.STAGE.YAML": "docker",
-        "docker-compose.staging.yaml": "docker",
-        "DOCKER-COMPOSE.STAGING.YAML": "docker",
-        "docker-compose.dev.yaml": "docker",
-        "DOCKER-COMPOSE.DEV.YAML": "docker",
-        "docker-compose.development.yaml": "docker",
-        "DOCKER-COMPOSE.DEVELOPMENT.YAML": "docker",
-        "docker-compose.local.yaml": "docker",
-        "DOCKER-COMPOSE.LOCAL.YAML": "docker",
-        "docker-compose.test.yaml": "docker",
-        "DOCKER-COMPOSE.TEST.YAML": "docker",
-        "docker-compose.testing.yaml": "docker",
-        "DOCKER-COMPOSE.TESTING.YAML": "docker",
-        "docker-compose.ci.yaml": "docker",
-        "DOCKER-COMPOSE.CI.YAML": "docker",
-        "docker-compose.web.yaml": "docker",
-        "DOCKER-COMPOSE.WEB.YAML": "docker",
-        "docker-compose.worker.yaml": "docker",
-        "DOCKER-COMPOSE.WORKER.YAML": "docker",
-        "compose.yml": "docker",
-        "COMPOSE.YML": "docker",
-        "compose.override.yml": "docker",
-        "COMPOSE.OVERRIDE.YML": "docker",
-        "compose.preprod.yml": "docker",
-        "COMPOSE.PREPROD.YML": "docker",
-        "compose.prod.yml": "docker",
-        "COMPOSE.PROD.YML": "docker",
-        "compose.production.yml": "docker",
-        "COMPOSE.PRODUCTION.YML": "docker",
-        "compose.alpha.yml": "docker",
-        "COMPOSE.ALPHA.YML": "docker",
-        "compose.beta.yml": "docker",
-        "COMPOSE.BETA.YML": "docker",
-        "compose.stage.yml": "docker",
-        "COMPOSE.STAGE.YML": "docker",
-        "compose.staging.yml": "docker",
-        "COMPOSE.STAGING.YML": "docker",
-        "compose.dev.yml": "docker",
-        "COMPOSE.DEV.YML": "docker",
-        "compose.development.yml": "docker",
-        "COMPOSE.DEVELOPMENT.YML": "docker",
-        "compose.local.yml": "docker",
-        "COMPOSE.LOCAL.YML": "docker",
-        "compose.test.yml": "docker",
-        "COMPOSE.TEST.YML": "docker",
-        "compose.testing.yml": "docker",
-        "COMPOSE.TESTING.YML": "docker",
-        "compose.ci.yml": "docker",
-        "COMPOSE.CI.YML": "docker",
-        "compose.web.yml": "docker",
-        "COMPOSE.WEB.YML": "docker",
-        "compose.worker.yml": "docker",
-        "COMPOSE.WORKER.YML": "docker",
-        "compose.yaml": "docker",
-        "COMPOSE.YAML": "docker",
-        "compose.override.yaml": "docker",
-        "COMPOSE.OVERRIDE.YAML": "docker",
-        "compose.preprod.yaml": "docker",
-        "COMPOSE.PREPROD.YAML": "docker",
-        "compose.prod.yaml": "docker",
-        "COMPOSE.PROD.YAML": "docker",
-        "compose.production.yaml": "docker",
-        "COMPOSE.PRODUCTION.YAML": "docker",
-        "compose.alpha.yaml": "docker",
-        "COMPOSE.ALPHA.YAML": "docker",
-        "compose.beta.yaml": "docker",
-        "COMPOSE.BETA.YAML": "docker",
-        "compose.stage.yaml": "docker",
-        "COMPOSE.STAGE.YAML": "docker",
-        "compose.staging.yaml": "docker",
-        "COMPOSE.STAGING.YAML": "docker",
-        "compose.dev.yaml": "docker",
-        "COMPOSE.DEV.YAML": "docker",
-        "compose.development.yaml": "docker",
-        "COMPOSE.DEVELOPMENT.YAML": "docker",
-        "compose.local.yaml": "docker",
-        "COMPOSE.LOCAL.YAML": "docker",
-        "compose.test.yaml": "docker",
-        "COMPOSE.TEST.YAML": "docker",
-        "compose.testing.yaml": "docker",
-        "COMPOSE.TESTING.YAML": "docker",
-        "compose.ci.yaml": "docker",
-        "COMPOSE.CI.YAML": "docker",
-        "compose.web.yaml": "docker",
-        "COMPOSE.WEB.YAML": "docker",
-        "compose.worker.yaml": "docker",
-        "COMPOSE.WORKER.YAML": "docker",
+        "docker-compose.yml": "docker-pink",
+        "DOCKER-COMPOSE.YML": "docker-pink",
+        "docker-compose.override.yml": "docker-pink",
+        "DOCKER-COMPOSE.OVERRIDE.YML": "docker-pink",
+        "docker-compose.prod.yml": "docker-pink",
+        "DOCKER-COMPOSE.PROD.YML": "docker-pink",
+        "docker-compose.production.yml": "docker-pink",
+        "DOCKER-COMPOSE.PRODUCTION.YML": "docker-pink",
+        "docker-compose.alpha.yml": "docker-pink",
+        "DOCKER-COMPOSE.ALPHA.YML": "docker-pink",
+        "docker-compose.beta.yml": "docker-pink",
+        "DOCKER-COMPOSE.BETA.YML": "docker-pink",
+        "docker-compose.stage.yml": "docker-pink",
+        "DOCKER-COMPOSE.STAGE.YML": "docker-pink",
+        "docker-compose.staging.yml": "docker-pink",
+        "DOCKER-COMPOSE.STAGING.YML": "docker-pink",
+        "docker-compose.dev.yml": "docker-pink",
+        "DOCKER-COMPOSE.DEV.YML": "docker-pink",
+        "docker-compose.development.yml": "docker-pink",
+        "DOCKER-COMPOSE.DEVELOPMENT.YML": "docker-pink",
+        "docker-compose.local.yml": "docker-pink",
+        "DOCKER-COMPOSE.LOCAL.YML": "docker-pink",
+        "docker-compose.test.yml": "docker-pink",
+        "DOCKER-COMPOSE.TEST.YML": "docker-pink",
+        "docker-compose.testing.yml": "docker-pink",
+        "DOCKER-COMPOSE.TESTING.YML": "docker-pink",
+        "docker-compose.ci.yml": "docker-pink",
+        "DOCKER-COMPOSE.CI.YML": "docker-pink",
+        "docker-compose.web.yml": "docker-pink",
+        "DOCKER-COMPOSE.WEB.YML": "docker-pink",
+        "docker-compose.worker.yml": "docker-pink",
+        "DOCKER-COMPOSE.WORKER.YML": "docker-pink",
+        "docker-compose.yaml": "docker-pink",
+        "DOCKER-COMPOSE.YAML": "docker-pink",
+        "docker-compose.override.yaml": "docker-pink",
+        "DOCKER-COMPOSE.OVERRIDE.YAML": "docker-pink",
+        "docker-compose.prod.yaml": "docker-pink",
+        "DOCKER-COMPOSE.PROD.YAML": "docker-pink",
+        "docker-compose.production.yaml": "docker-pink",
+        "DOCKER-COMPOSE.PRODUCTION.YAML": "docker-pink",
+        "docker-compose.alpha.yaml": "docker-pink",
+        "DOCKER-COMPOSE.ALPHA.YAML": "docker-pink",
+        "docker-compose.beta.yaml": "docker-pink",
+        "DOCKER-COMPOSE.BETA.YAML": "docker-pink",
+        "docker-compose.stage.yaml": "docker-pink",
+        "DOCKER-COMPOSE.STAGE.YAML": "docker-pink",
+        "docker-compose.staging.yaml": "docker-pink",
+        "DOCKER-COMPOSE.STAGING.YAML": "docker-pink",
+        "docker-compose.dev.yaml": "docker-pink",
+        "DOCKER-COMPOSE.DEV.YAML": "docker-pink",
+        "docker-compose.development.yaml": "docker-pink",
+        "DOCKER-COMPOSE.DEVELOPMENT.YAML": "docker-pink",
+        "docker-compose.local.yaml": "docker-pink",
+        "DOCKER-COMPOSE.LOCAL.YAML": "docker-pink",
+        "docker-compose.test.yaml": "docker-pink",
+        "DOCKER-COMPOSE.TEST.YAML": "docker-pink",
+        "docker-compose.testing.yaml": "docker-pink",
+        "DOCKER-COMPOSE.TESTING.YAML": "docker-pink",
+        "docker-compose.ci.yaml": "docker-pink",
+        "DOCKER-COMPOSE.CI.YAML": "docker-pink",
+        "docker-compose.web.yaml": "docker-pink",
+        "DOCKER-COMPOSE.WEB.YAML": "docker-pink",
+        "docker-compose.worker.yaml": "docker-pink",
+        "DOCKER-COMPOSE.WORKER.YAML": "docker-pink",
+        "compose.yml": "docker-pink",
+        "COMPOSE.YML": "docker-pink",
+        "compose.override.yml": "docker-pink",
+        "COMPOSE.OVERRIDE.YML": "docker-pink",
+        "compose.prod.yml": "docker-pink",
+        "COMPOSE.PROD.YML": "docker-pink",
+        "compose.production.yml": "docker-pink",
+        "COMPOSE.PRODUCTION.YML": "docker-pink",
+        "compose.alpha.yml": "docker-pink",
+        "COMPOSE.ALPHA.YML": "docker-pink",
+        "compose.beta.yml": "docker-pink",
+        "COMPOSE.BETA.YML": "docker-pink",
+        "compose.stage.yml": "docker-pink",
+        "COMPOSE.STAGE.YML": "docker-pink",
+        "compose.staging.yml": "docker-pink",
+        "COMPOSE.STAGING.YML": "docker-pink",
+        "compose.dev.yml": "docker-pink",
+        "COMPOSE.DEV.YML": "docker-pink",
+        "compose.development.yml": "docker-pink",
+        "COMPOSE.DEVELOPMENT.YML": "docker-pink",
+        "compose.local.yml": "docker-pink",
+        "COMPOSE.LOCAL.YML": "docker-pink",
+        "compose.test.yml": "docker-pink",
+        "COMPOSE.TEST.YML": "docker-pink",
+        "compose.testing.yml": "docker-pink",
+        "COMPOSE.TESTING.YML": "docker-pink",
+        "compose.ci.yml": "docker-pink",
+        "COMPOSE.CI.YML": "docker-pink",
+        "compose.web.yml": "docker-pink",
+        "COMPOSE.WEB.YML": "docker-pink",
+        "compose.worker.yml": "docker-pink",
+        "COMPOSE.WORKER.YML": "docker-pink",
+        "compose.yaml": "docker-pink",
+        "COMPOSE.YAML": "docker-pink",
+        "compose.override.yaml": "docker-pink",
+        "COMPOSE.OVERRIDE.YAML": "docker-pink",
+        "compose.prod.yaml": "docker-pink",
+        "COMPOSE.PROD.YAML": "docker-pink",
+        "compose.production.yaml": "docker-pink",
+        "COMPOSE.PRODUCTION.YAML": "docker-pink",
+        "compose.alpha.yaml": "docker-pink",
+        "COMPOSE.ALPHA.YAML": "docker-pink",
+        "compose.beta.yaml": "docker-pink",
+        "COMPOSE.BETA.YAML": "docker-pink",
+        "compose.stage.yaml": "docker-pink",
+        "COMPOSE.STAGE.YAML": "docker-pink",
+        "compose.staging.yaml": "docker-pink",
+        "COMPOSE.STAGING.YAML": "docker-pink",
+        "compose.dev.yaml": "docker-pink",
+        "COMPOSE.DEV.YAML": "docker-pink",
+        "compose.development.yaml": "docker-pink",
+        "COMPOSE.DEVELOPMENT.YAML": "docker-pink",
+        "compose.local.yaml": "docker-pink",
+        "COMPOSE.LOCAL.YAML": "docker-pink",
+        "compose.test.yaml": "docker-pink",
+        "COMPOSE.TEST.YAML": "docker-pink",
+        "compose.testing.yaml": "docker-pink",
+        "COMPOSE.TESTING.YAML": "docker-pink",
+        "compose.ci.yaml": "docker-pink",
+        "COMPOSE.CI.YAML": "docker-pink",
+        "compose.web.yaml": "docker-pink",
+        "COMPOSE.WEB.YAML": "docker-pink",
+        "compose.worker.yaml": "docker-pink",
+        "COMPOSE.WORKER.YAML": "docker-pink",
+        "docker-healthcheck": "docker-green",
+        "DOCKER-HEALTHCHECK": "docker-green",
+        "docker-healthcheck.prod": "docker-green",
+        "DOCKER-HEALTHCHECK.PROD": "docker-green",
+        "docker-healthcheck.production": "docker-green",
+        "DOCKER-HEALTHCHECK.PRODUCTION": "docker-green",
+        "docker-healthcheck.alpha": "docker-green",
+        "DOCKER-HEALTHCHECK.ALPHA": "docker-green",
+        "docker-healthcheck.beta": "docker-green",
+        "DOCKER-HEALTHCHECK.BETA": "docker-green",
+        "docker-healthcheck.stage": "docker-green",
+        "DOCKER-HEALTHCHECK.STAGE": "docker-green",
+        "docker-healthcheck.staging": "docker-green",
+        "DOCKER-HEALTHCHECK.STAGING": "docker-green",
+        "docker-healthcheck.dev": "docker-green",
+        "DOCKER-HEALTHCHECK.DEV": "docker-green",
+        "docker-healthcheck.development": "docker-green",
+        "DOCKER-HEALTHCHECK.DEVELOPMENT": "docker-green",
+        "docker-healthcheck.local": "docker-green",
+        "DOCKER-HEALTHCHECK.LOCAL": "docker-green",
+        "docker-healthcheck.test": "docker-green",
+        "DOCKER-HEALTHCHECK.TEST": "docker-green",
+        "docker-healthcheck.testing": "docker-green",
+        "DOCKER-HEALTHCHECK.TESTING": "docker-green",
+        "docker-healthcheck.ci": "docker-green",
+        "DOCKER-HEALTHCHECK.CI": "docker-green",
+        "docker-healthcheck.web": "docker-green",
+        "DOCKER-HEALTHCHECK.WEB": "docker-green",
+        "docker-healthcheck.worker": "docker-green",
+        "DOCKER-HEALTHCHECK.WORKER": "docker-green",
         "firebase.json": "firebase",
         "FIREBASE.JSON": "firebase",
         ".firebaserc": "firebase",
@@ -3919,6 +4086,12 @@
         "ESLINT.CONFIG.CJS": "eslint",
         "eslint.config.mjs": "eslint",
         "ESLINT.CONFIG.MJS": "eslint",
+        "eslint.config.ts": "eslint",
+        "ESLINT.CONFIG.TS": "eslint",
+        "eslint.config.cts": "eslint",
+        "ESLINT.CONFIG.CTS": "eslint",
+        "eslint.config.mts": "eslint",
+        "ESLINT.CONFIG.MTS": "eslint",
         ".eslintrc.js": "eslint",
         ".ESLINTRC.JS": "eslint",
         ".eslintrc.cjs": "eslint",
@@ -4470,7 +4643,9 @@
         "yumma.css": "yummacss",
         "YUMMA.CSS": "yummacss",
         "yummacss.css": "yummacss",
-        "YUMMACSS.CSS": "yummacss"
+        "YUMMACSS.CSS": "yummacss",
+        "components.json": "shadcn",
+        "COMPONENTS.JSON": "shadcn"
       }
     }
   ]
