@@ -1,0 +1,82 @@
+name: Update Icons
+
+on:
+  schedule:
+    - cron: '0 9 * * 1' # Every Monday at 9am UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get latest vscode-symbols version
+        id: latest
+        run: |
+          LATEST=$(gh api repos/miguelsolorio/vscode-symbols/releases/latest --jq '.tag_name')
+          echo "version=$LATEST" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get current tracked version
+        id: current
+        run: |
+          if [ -f .vscode-symbols-version ]; then
+            echo "version=$(cat .vscode-symbols-version)" >> $GITHUB_OUTPUT
+          else
+            echo "version=none" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Skip if already up to date
+        id: check
+        run: |
+          if [ "${{ steps.latest.outputs.version }}" = "${{ steps.current.outputs.version }}" ]; then
+            echo "No update needed, already on ${{ steps.latest.outputs.version }}"
+            echo "update=false" >> $GITHUB_OUTPUT
+          else
+            echo "New version available: ${{ steps.latest.outputs.version }}"
+            echo "update=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup pnpm
+        if: steps.check.outputs.update == 'true'
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - name: Setup Node.js
+        if: steps.check.outputs.update == 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - name: Install dependencies
+        if: steps.check.outputs.update == 'true'
+        run: pnpm install
+
+      - name: Build icons
+        if: steps.check.outputs.update == 'true'
+        run: pnpm build
+
+      - name: Update tracked version
+        if: steps.check.outputs.update == 'true'
+        run: echo "${{ steps.latest.outputs.version }}" > .vscode-symbols-version
+
+      - name: Open Pull Request
+        if: steps.check.outputs.update == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update/vscode-symbols-${{ steps.latest.outputs.version }}
+          commit-message: "chore: update icons to vscode-symbols ${{ steps.latest.outputs.version }}"
+          title: "chore: update icons to vscode-symbols ${{ steps.latest.outputs.version }}"
+          body: |
+            Automated icon update from [vscode-symbols ${{ steps.latest.outputs.version }}](https://github.com/miguelsolorio/vscode-symbols/releases/tag/${{ steps.latest.outputs.version }}).
+          labels: automated
