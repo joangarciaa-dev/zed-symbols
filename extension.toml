@@ -2,6 +2,6 @@ id = "symbols"
 name = "Symbols"
 version = "1.2.0"
 schema_version = 1
-authors = ["Joan Garcia joangarcia.dev@gmail.com"]
+authors = ["Joan Garcia <joangarcia.dev@gmail.com>"]
 description = "A simple file icon theme"
 repository = "https://github.com/joangarciaa-dev/zed-symbols"
